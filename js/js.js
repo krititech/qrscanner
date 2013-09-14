@@ -19,6 +19,7 @@ function scan() {
 	alert('can');
     window.plugins.barcodeScanner.scan(
         function(result) {
+        	alert(3);
             // Stop the currently playing song if one is playing
             stopAudio();           
             // retrieve the song url from the string and store it in the "song" variable.
