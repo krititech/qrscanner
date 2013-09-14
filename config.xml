@@ -6,7 +6,7 @@
         version   = "1.0.0">
 
     <gap:plugin name="com.phonegap.plugins.barcodescanner" /> <!-- latest release -->
-    <gap:plugin name="ChildBrowser" /> <!-- latest release -->
+   <gap:plugin name="com.phonegap.plugins.childbrowser" /> <!-- latest release -->
 
     <!-- versionCode is optional and Android only -->
 
