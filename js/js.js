@@ -1,6 +1,7 @@
 $(document).ready(function () {
       // Call the barcode scanner's scan() function when the scan button is clicked  
 	$(".scanButton").click(function() {
+		alert('click');
 		scan();
 	});
       // Call the Media.stopAudio() function when the stop button is clicked  
@@ -15,6 +16,7 @@ var state;
     string returned from the QR code. The function assumes that the string contains the destination
     url first and then the song url separated by a space. */
 function scan() {
+	alert('can');
     window.plugins.barcodeScanner.scan(
         function(result) {
             // Stop the currently playing song if one is playing
